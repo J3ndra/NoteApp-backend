@@ -1,0 +1,28 @@
+{
+  "name": "note-app",
+  "version": "1.0.0",
+  "description": "A simple CRUD Note App using ExpressJS and MongoDB",
+  "author": "Koh Endru",
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "debug": "nodemon ./bin/www DEBUG=note-app:*"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^10.0.0",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "mongoose": "^5.13.5",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.12",
+    "openapi-types": "^9.1.0",
+    "pug": "2.0.0-beta11",
+    "swagger-jsdoc": "5.0.1",
+    "swagger-ui-express": "^4.1.6"
+  },
+  "engines": {
+    "node": "15.x"
+  }
+}
