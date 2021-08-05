@@ -31,6 +31,10 @@ const swaggerDefinition = {
       url: 'http://localhost:3000',
       description: 'Development server',
     },
+    {
+      url: 'https://note-app-697812.herokuapp.com/',
+      description: 'Production server'
+    }
   ],
 };
 
