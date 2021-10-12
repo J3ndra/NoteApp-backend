@@ -10,8 +10,6 @@ const {
 mongoose.connect(`mongodb+srv://${dbUser}:${dbPass}@${dbHost}/${dbName}?retryWrites=true&w=majority`, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-    useFindAndModify: false,
-    useCreateIndex: true
 }).then(client => {
     console.log('Server database connected!')
 }).catch(error => console.error(error));
